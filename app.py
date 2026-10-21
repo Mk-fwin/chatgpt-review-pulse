@@ -12,7 +12,7 @@ DATA = BASE / "data"
 OUT = BASE / "output"
 OUT.mkdir(exist_ok=True)
 
-st.set_page_config(page_title="ChatGPT India: Review Pulse", page_icon="📝", layout="centered")
+st.set_page_config(page_title="Review Pulse", page_icon="📝", layout="centered")
 
 insights = json.loads((DATA / "insights.json").read_text(encoding="utf-8"))
 pulse = (DATA / "weekly_pulse.md").read_text(encoding="utf-8")
@@ -102,8 +102,8 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 st.markdown(CSS, unsafe_allow_html=True)
 
 st.markdown(
-    f"""<div class="hero"><h1>ChatGPT India: Review Pulse</h1>
-    <p>Play Store reviews to a weekly product pulse and a support-ready plan explainer</p>
+    f"""<div class="hero"><h1>{insights['product']}: Review Pulse</h1>
+    <p>Play Store reviews to a weekly product pulse and a support-ready fee explainer</p>
     <p>{insights['source']}</p></div>""",
     unsafe_allow_html=True,
 )
@@ -119,12 +119,7 @@ LABELS = {
 tab1, tab2, tab3, tab4 = st.tabs(["Insights", "Weekly pulse", "Fee explainer", "Approval gate"])
 
 with tab1:
-    kpis = [
-        (f"{insights['total_reviews']:,}", "reviews analysed (1-3 stars)"),
-        (f"{insights['substantive_8plus_words']:,}", "long reviews (8+ words)"),
-        (str(insights["fee_evidence"]["paid_but_still_limited"]), "paid and still hit limits"),
-        (f"{insights['voice_mentions']['share_pct']}%", "mention voice"),
-    ]
+    kpis = insights["kpis"]
     cols = st.columns(4)
     for c, (n, l) in zip(cols, kpis):
         c.markdown(f'<div class="kpi"><div class="n">{n}</div><div class="l">{l}</div></div>', unsafe_allow_html=True)

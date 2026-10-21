@@ -1,72 +1,85 @@
 {
-  "source": "Google Play reviews, ChatGPT (com.openai.chatgpt), India, 1-3 star reviews, 2026-08-09 to 2026-10-03",
-  "total_reviews": 14975,
-  "unique": 14946,
-  "substantive_8plus_words": 10526,
-  "caveat": "1-3 star reviews only (Play Store paging cap); 4-5 star reviews excluded, so sentiment skews negative",
+  "product": "Groww",
+  "source": "Google Play reviews, Groww (com.nextbillion.groww), India, 7 Aug to 3 Oct 2026",
+  "caveat": "Latest 9,000 reviews, all ratings. Theme counts use the 1,596 reviews with 8+ words, and one review can count in several themes.",
+  "kpis": [
+    [
+      "9,000",
+      "reviews analysed"
+    ],
+    [
+      "1,596",
+      "long reviews (8+ words)"
+    ],
+    [
+      "195",
+      "mention charges or fees"
+    ],
+    [
+      "0",
+      "mention exit load"
+    ]
+  ],
   "themes": [
     {
-      "name": "Usage limits, paywall & plan value",
-      "mentions": 2211,
-      "share_pct": 21.0
+      "name": "App stability & trading UX",
+      "mentions": 397,
+      "share_pct": 24.9
     },
     {
-      "name": "Answer quality & instruction-following",
-      "mentions": 1664,
-      "share_pct": 15.8
+      "name": "Ease of use / UI praise",
+      "mentions": 360,
+      "share_pct": 22.6
     },
     {
-      "name": "App bugs, crashes & slowness",
-      "mentions": 1546,
-      "share_pct": 14.7
+      "name": "Customer support",
+      "mentions": 227,
+      "share_pct": 14.2
     },
     {
-      "name": "Login, account & support",
-      "mentions": 554,
-      "share_pct": 5.3
+      "name": "Charges & pricing clarity",
+      "mentions": 199,
+      "share_pct": 12.5
     },
     {
-      "name": "Image generation, ads & feature requests",
-      "mentions": 432,
-      "share_pct": 4.1
+      "name": "Money movement & account",
+      "mentions": 111,
+      "share_pct": 7.0
     }
   ],
   "top3": [
-    "Usage limits, paywall & plan value",
-    "Answer quality & instruction-following",
-    "App bugs, crashes & slowness"
+    "App stability & trading UX",
+    "Customer support",
+    "Charges & pricing clarity"
   ],
   "quotes": [
     {
-      "theme": "Usage limits, paywall & plan value",
-      "date": "2026-09-24",
+      "theme": "Charges & pricing clarity",
+      "date": "2026-08-14",
       "rating": 1,
-      "text": "I managed to burn through my entire Plus subscriptions allowance in 4 hours of work. 4. hours.... 4. £20 a month for 16 hours of work... I obviously asked for a refund."
+      "text": "my trade for only 1 mint and 1 order after that It will deduct 200+ ₹ charges why? but you mentioned that 20₹/ per order"
     },
     {
-      "theme": "Answer quality & instruction-following",
-      "date": "2026-09-11",
+      "theme": "Customer support",
+      "date": "2026-09-21",
       "rating": 1,
-      "text": "It has stopped following 95% of the directions given to it."
+      "text": "Worst customer care service, no reply for last few of my complaints till now"
     },
     {
-      "theme": "App bugs, crashes & slowness",
-      "date": "2026-08-29",
+      "theme": "App stability & trading UX",
+      "date": "2026-08-28",
       "rating": 1,
-      "text": "The app gets stuck in an infinite \"thinking\" loop constantly."
+      "text": "When we open the charts the back button on our phone just disappears"
     }
   ],
-  "fee_issue": "Subscription value and usage limits: users do not understand what Go/Plus/Pro actually gives them vs free",
+  "fee_issue": "Total charges deducted on a trade vs the advertised ₹20 per order brokerage",
   "fee_evidence": {
-    "paid_but_still_limited": 228,
-    "price_too_high_or_not_worth": 217,
-    "unclear_what_you_pay_for": 132,
-    "refund_charge_cancel_issues": 118,
-    "paid_but_plan_not_activated": 16
-  },
-  "voice_mentions": {
-    "all": 328,
-    "share_pct": 2.2,
-    "avg_rating": 1.84
+    "Charges 'hidden' or unclear": 29,
+    "Brokerage higher than advertised ₹20": 22,
+    "Charges eat into profit": 20,
+    "GST, taxes and other charges": 16,
+    "MTF / haircut charges": 11,
+    "DP / sell-side charges": 7,
+    "Auto square-off charges": 5
   }
 }

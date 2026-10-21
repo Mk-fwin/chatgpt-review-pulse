@@ -1,41 +1,43 @@
-Subject: Weekly Product Pulse + Customer Clarification — 06 Oct 2026
+Subject: Weekly Product Pulse + Customer Clarification — 21 Oct 2026
 
 Hi team,
 
 Weekly product pulse
 --------------------
-# Weekly Product Pulse: ChatGPT India (Android)
-Reviews: 9 Aug to 3 Oct 2026, 14,975 Play Store reviews (1 to 3 stars only)
+# Weekly Product Pulse: Groww (Android)
+Reviews: 7 Aug to 3 Oct 2026, 9,000 Play Store reviews (1,596 with 8+ words)
 
-## Top themes (share of long reviews)
-1. **Usage limits and plan value** (21%)
-2. **Answer quality and instruction-following** (15.8%)
-3. **App bugs, crashes and slowness** (14.7%)
+## Top themes (ranked by low-rated mentions)
+1. **App stability and trading UX** (397 mentions)
+2. **Customer support** (227 mentions, average 1.67 stars)
+3. **Charges and pricing clarity** (199 mentions)
+
+Strength: ease of use (360 mentions, average 4.22 stars).
 
 ## User quotes
-- "I managed to burn through my entire Plus subscriptions allowance in 4 hours of work." (1 star, 24 Sep)
-- "It has stopped following 95% of the directions given to it." (1 star, 11 Sep)
-- "The app gets stuck in an infinite "thinking" loop constantly." (1 star, 29 Aug)
+- "my trade for only 1 mint and 1 order after that It will deduct 200+ ₹ charges why? but you mentioned that 20₹/ per order" (1 star, 14 Aug)
+- "Worst customer care service, no reply for last few of my complaints till now" (1 star, 21 Sep)
+- "When we open the charts the back button on our phone just disappears" (1 star, 28 Aug)
 
 ## Key observation
-Users cannot tell what free and paid plans include. 228 reviews say they paid and still hit limits; 132 say it is unclear what they are paying for. OpenAI's own pages also disagree: the Go FAQ says voice has Free-tier limits, while the Voice page lists 3 hours per day for Go. Voice appears in 328 reviews (2.2%, average 1.84 stars), mostly about limits ending after 5 to 10 minutes and background noise interrupting.
+Users compare the advertised ₹20 brokerage with what is actually deducted. 195 long reviews mention charges, 119 of them rated 1 or 2 stars: 29 call charges hidden or unclear, 22 say brokerage is higher than advertised, and 20 say charges eat their profit. Exit load appears in none, so mutual fund fees are not the issue. Slow support replies add to the frustration.
 
 ## Action ideas
-1. Show a usage meter and reset time in-app, including voice minutes left.
-2. Align the pricing page, help articles and upgrade screen into one India-specific limits table.
-3. Add an interruption-sensitivity toggle and an automatic switch to dictation when the voice limit is hit.
+1. Show an itemised charge preview (brokerage, DP, statutory, GST) before an order is confirmed.
+2. Add a "why was I charged" breakdown to trade confirmations, linking to the brokerage calculator.
+3. Give support one standard reply for charge queries, and track repeat contacts about charges.
 
 
-Support snippet: plan limits and billing
+Support snippet: Groww charges
 --------------------
-- Everyday text chats are unlimited on Free, Go, Plus and Pro (subject to abuse guardrails); limits apply to features such as image generation, file uploads, data analysis and voice.
-- Voice in Chat is measured over a rolling 24 hours, and ChatGPT notifies you at the limit: Free has limited access; Go and Plus each get 3 hours; Pro gets 15 hours or unlimited, depending on tier.
-- A Voice conversation can end when you reach a usage limit; you can continue in text or start Voice again.
-- Go is billed automatically each month and can be canceled anytime; annual or multi-month prepayment is not offered. Prices are on the pricing page.
-- If you subscribed through the Play Store or App Store, the upgrade may take a few minutes to appear; wait and restart the app.
-- Switching from Plus or Pro to Go gives no refund; your current plan runs to the end of the billing cycle. Incorrect charges can be raised through the refund request process.
+- The advertised ₹20 is brokerage only: the lower of ₹20 or 0.1% of trade value per order, with a minimum charge of ₹5 (or 2.5% of trade value, if that is lower).
+- Other charges are added on top: statutory and exchange charges (STT, stamp duty, exchange transaction charges, SEBI turnover charge, investor protection fund charge). These are levied by the exchange and government, not set by Groww.
+- 18% GST applies on brokerage, DP charges and exchange-related charges.
+- Selling delivery shares adds a DP charge per sell transaction: ₹16.50 (Groww) plus a depository fee of ₹3.50 (₹3.25 for women), plus GST. Groww's part is waived when the sell value is under ₹100.
+- Intraday positions not squared off before 3:20 PM are charged ₹50 plus GST per position.
+- Because these are separate line items, total charges on one trade can exceed ₹20. The Brokerage Calculator and the charges report itemise each one.
 
 Sources:
-https://help.openai.com/en/articles/11989085-what-is-chatgpt-go
-https://help.openai.com/en/articles/20001274-chatgpt-voice
-Last checked: 4 Oct 2026
+https://groww.in/pricing/stocks
+https://groww.in/help/stocks%2C-f%26o%2C-ipo-%26-mtf/sx-demat-account/how-much-does-groww-charge-for-stocks-1
+Last checked: 21 Oct 2026
